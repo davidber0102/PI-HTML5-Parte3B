@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eventos, HTML5, Java">
+
+    <title>Eventos con html 5 y JavaScript</title>
+<!-- video 15 min 15
+        addeventlistener()
+            -nombtr evento
+            -funcion a ejecutar
+            valor booleano            
+        -->
+<script>
+    var img;
+    function tipoflor(){
+        alert("Pensamientos");
+    }
+    function manejaFlor(){
+        img=document.getElementsByTagName("img")[0];
+        img.addEventListener("mouseover", crecer, false);
+        img.addEventListener("mouseout", menguar, false);
+        img.addEventListener("click", tipoflor, false   );
+    }
+    function crecer(){
+        img.width=325;
+        img.height=325;
+    }
+    function menguar(){
+         img.width=200;
+        img.height=200;
+    }
+    window.onload = manejaFlor;
+</script>
+
+</head>
+<body>
+    <header>
+        <h1>Eventos</h1>
+    </header>
+
+<p> <img src="img/1.jpg" >&nbsp;&nbsp;<img src="img/2.jpg" >&nbsp;&nbsp; <img src="img/3.jpg" > &nbsp;&nbsp;<img src="img/4.jpg" alt=""></p>
+    
+</body>
+</html>
+
