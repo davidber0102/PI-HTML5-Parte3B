@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    function eventos(){
+        var elemento=document.getElementsByTagName("p") [0];
+        var elemento2=document.getElementsByTagName("img")[0];
+
+        elemento.addEventListener("click",aviso2, false);
+        elemento2.addEventListener("click",aviso1, false);
+
+    }
+
+    
+    function aviso1(){
+        alert("Hola, soy la imagen");
+          }
+
+    function aviso2(){
+        alert("Hola, soy el parrafo");
+    }
+
+    window.addEventListener("load", eventos, false);
+</script>
+
+</head>
+<body>
+    <p><img src="img/1.jpg" ></p>
+</body>
+</html>
