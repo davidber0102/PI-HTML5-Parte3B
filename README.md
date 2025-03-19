@@ -1,4 +1,4 @@
-<h1 align="center">Comenzando y Conociendo HTML5 Parte 3-B</h1>
+<h1 align="center">Comenzando y Conociendo HTML5 Parte 3-B JavaScript</h1>
 <p align="center"> Curso HTML5</p>
 <p align="center">  Instructor: Juan Diaz</p>
 <p align="center">  Alumn: David Bernal Diaz</p>
